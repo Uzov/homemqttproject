@@ -1,2 +1,2 @@
-cd ~/UzovMQTT/01 && source /home/pi/UzovMQTT/01/venv/bin/activate && python3 panel_mqtt_client.py >> client.log 2>&1 &
+cd ~/UzovMQTT/01 && source .venv/bin/activate && python3 panel_mqtt_client.py >> client.log 2>&1 &
 # python3 /home/pi/UzovMQTT/01/panel_mqtt_client.py >> null &

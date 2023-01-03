@@ -11,10 +11,11 @@ mqtt_keepalive = 60
 
 DHT_PIN = 17
 # ds18b20_id = "28-3c01d0752a52"
-# ds18b20_id = "28-3c01d075687d"
+ds18b20_id_room = "28-3c01d075687d"
 # ds18b20_id = "28-3c01d07538af"
-ds18b20_id_room = "28-0115718d9dff"
-ds18b20_id_out = "28-011564b20bff"
+ds18b20_id_out = "28-3cd5f648d8b7"
+# ds18b20_id_room = "28-0115718d9dff"
+# ds18b20_id_out = "28-011564b20bff"
 
 
 dict_relay_pins = {

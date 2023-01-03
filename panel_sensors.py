@@ -116,11 +116,12 @@ if __name__ == "__main__":
         sensors = Sensors('ROOM01')
         sensors.init_gpio_pins()
         # print(sensors01.get_BMP085_data())
-        # print(sensors.get_DHT11_data(DHT_PIN))
-        print(sensors.get_ds18b20_data(ds18b20_id))
-        print(f'BME280 temperature: {sensors.get_bme280_data(1, 0x76)[KEY_TEMP]}')
-        print(f'BME280 humidity: {sensors.get_bme280_data(1, 0x76)[KEY_HUMIDITY]}')
-        print(f'BME280 pressure: {sensors.get_bme280_data(1, 0x76)[KEY_PRESSURE]}')
+        print(sensors.get_DHT11_data(DHT_PIN))
+        print(sensors.get_ds18b20_data(ds18b20_id_out))
+        print(sensors.get_ds18b20_data(ds18b20_id_room))
+        # print(f'BME280 temperature: {sensors.get_bme280_data(1, 0x76)[KEY_TEMP]}')
+        # print(f'BME280 humidity: {sensors.get_bme280_data(1, 0x76)[KEY_HUMIDITY]}')
+        # print(f'BME280 pressure: {sensors.get_bme280_data(1, 0x76)[KEY_PRESSURE]}')
 
         time.sleep(10)
 
