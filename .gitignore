@@ -9,3 +9,5 @@
 /pgdata
 /examples
 /initdb
+/mqtt_tls_ca/data
+/mqtt_tls_ca/serialization_tutorial6.pdf
