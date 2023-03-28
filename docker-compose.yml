@@ -8,7 +8,7 @@ services:
     environment:
       POSTGRES_DB: "nodereddb"
       POSTGRES_USER: "nodered"
-      POSTGRES_PASSWORD: "p@ssw0rd"
+      POSTGRES_PASSWORD: "*****"
       PGDATA: "/var/lib/postgresql/data/pgdata"
     volumes:
     # Точка входа для инициализации базы данных - docker-entrypoint-initdb.d.
@@ -34,7 +34,7 @@ services:
     user: root:root
     environment:
       PGADMIN_DEFAULT_EMAIL: "nodered@home.local"
-      PGADMIN_DEFAULT_PASSWORD: "p@ssw0rd"
+      PGADMIN_DEFAULT_PASSWORD: "*****"
       PGADMIN_CONFIG_SERVER_MODE: "False"
     volumes:
       - ./pgadmin:/var/lib/pgadmin
