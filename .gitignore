@@ -3,3 +3,9 @@
 /Adafruit_Python_BMP
 /venv
 /.venv
+/.vscode
+/mosquitto
+/pgadmin
+/pgdata
+/examples
+/initdb

@@ -19332,4 +19332,1604 @@ No response received from 0.ru.pool.ntp.org.
 23-05-2022 16:05:04: ROOM01, Getting outer temperature.
 23-05-2022 16:05:05, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
 23-05-2022 16:05:05, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 23.187} is successfully sent.
-23-05-2022 16:05:24, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+23-05-2022 16:05:24, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'03-01-2023 20:56:20, Result from connect: Connection Accepted.
+03-01-2023 20:56:23, I've subscribed with QoS: 2
+03-01-2023 20:56:23: ROOM01, Setting maximum temperature to 23 degree
+03-01-2023 20:56:23, The answer message {"SYNCH": "SET_MAX_ROOM01_TEMP", "DATA": 23} is successfully sent.
+03-01-2023 20:56:23: ROOM01, Auto_mode_false
+03-01-2023 20:56:23, The answer message {"SYNCH": "SET_AUTO_FALSE"} is successfully sent.
+03-01-2023 20:56:23: ROOM01, Turning on room01 heater.
+03-01-2023 20:56:23, The answer message {"SYNCH": "TURN_ON_ROOM01_HEATER"} is successfully sent.
+03-01-2023 20:56:23: ROOM01, Turning off relay01.
+03-01-2023 20:56:23, The answer message {"SYNCH": "TURN_OFF_RELAY01"} is successfully sent.
+03-01-2023 20:56:23: ROOM01, Turning off relay02.
+03-01-2023 20:56:23, The answer message {"SYNCH": "TURN_OFF_RELAY02"} is successfully sent.
+03-01-2023 20:56:23: ROOM01, Turning off relay03.
+03-01-2023 20:56:23, The answer message {"SYNCH": "TURN_OFF_RELAY03"} is successfully sent.
+03-01-2023 20:56:23: ROOM01, Turning off relay04.
+03-01-2023 20:56:23, The answer message {"SYNCH": "TURN_OFF_RELAY04"} is successfully sent.
+03-01-2023 20:56:31, Received message payload: b'{"CMD": "SET_AUTO_FALSE"}'
+03-01-2023 20:56:31: ROOM01, Auto_mode_false
+03-01-2023 20:56:31, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "SET_AUTO_FALSE"} is successfully executed.
+03-01-2023 20:56:31, Received message payload: b'{"CMD": "TURN_ON_ROOM01_HEATER"}'
+03-01-2023 20:56:31: ROOM01, Turning on room01 heater.
+03-01-2023 20:56:31, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_ON_ROOM01_HEATER"} is successfully executed.
+03-01-2023 20:56:32, Received message payload: b'{"CMD": "TURN_OFF_RELAY01"}'
+03-01-2023 20:56:32: ROOM01, Turning off relay01.
+03-01-2023 20:56:32, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY01"} is successfully executed.
+03-01-2023 20:56:32, Received message payload: b'{"CMD": "TURN_OFF_RELAY02"}'
+03-01-2023 20:56:32: ROOM01, Turning off relay02.
+03-01-2023 20:56:32, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY02"} is successfully executed.
+03-01-2023 20:56:33, Received message payload: b'{"CMD": "TURN_OFF_RELAY03"}'
+03-01-2023 20:56:33: ROOM01, Turning off relay03.
+03-01-2023 20:56:33, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY03"} is successfully executed.
+03-01-2023 20:56:37, Received message payload: b'{"CMD": "TURN_OFF_RELAY04"}'
+03-01-2023 20:56:37: ROOM01, Turning off relay04.
+03-01-2023 20:56:37, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY04"} is successfully executed.
+03-01-2023 20:56:37, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 20:56:37: ROOM01, Getting room01 temperature.
+03-01-2023 20:56:37, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 20:56:37, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 20:56:51, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 20:56:51: ROOM01, Getting outer temperature.
+03-01-2023 20:56:51, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 20:56:52, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.5} is successfully sent.
+03-01-2023 20:57:00, Received message payload: b'{"CMD": "TURN_ON_RELAY01"}'
+03-01-2023 20:57:00: ROOM01, Turning on relay01.
+03-01-2023 20:57:00, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_ON_RELAY01"} is successfully executed.
+03-01-2023 20:57:03, Received message payload: b'{"CMD": "TURN_OFF_ROOM01_HEATER"}'
+03-01-2023 20:57:03: ROOM01, Turning off room01 heater.
+03-01-2023 20:57:03, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_ROOM01_HEATER"} is successfully executed.
+03-01-2023 20:57:06, Received message payload: b'{"CMD": "TURN_ON_RELAY02"}'
+03-01-2023 20:57:06: ROOM01, Turning on relay02.
+03-01-2023 20:57:06, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_ON_RELAY02"} is successfully executed.
+03-01-2023 20:57:14, Received message payload: b'{"CMD": "TURN_ON_RELAY03"}'
+03-01-2023 20:57:14: ROOM01, Turning on relay03.
+03-01-2023 20:57:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_ON_RELAY03"} is successfully executed.
+03-01-2023 20:57:17, Received message payload: b'{"CMD": "TURN_ON_RELAY04"}'
+03-01-2023 20:57:17: ROOM01, Turning on relay04.
+03-01-2023 20:57:17, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_ON_RELAY04"} is successfully executed.
+03-01-2023 20:57:21, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 20:57:21: ROOM01, Getting room01 temperature.
+03-01-2023 20:57:21, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 20:57:21, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 20:57:27, Received message payload: b'{"CMD": "TURN_OFF_RELAY04"}'
+03-01-2023 20:57:27: ROOM01, Turning off relay04.
+03-01-2023 20:57:27, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY04"} is successfully executed.
+03-01-2023 20:57:29, Received message payload: b'{"CMD": "TURN_OFF_RELAY03"}'
+03-01-2023 20:57:29: ROOM01, Turning off relay03.
+03-01-2023 20:57:29, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY03"} is successfully executed.
+03-01-2023 20:57:31, Received message payload: b'{"CMD": "TURN_OFF_RELAY02"}'
+03-01-2023 20:57:31: ROOM01, Turning off relay02.
+03-01-2023 20:57:31, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY02"} is successfully executed.
+03-01-2023 20:57:31, Received message payload: b'{"CMD": "TURN_OFF_RELAY01"}'
+03-01-2023 20:57:31: ROOM01, Turning off relay01.
+03-01-2023 20:57:31, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY01"} is successfully executed.
+03-01-2023 20:57:54, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 20:57:54: ROOM01, Getting room01 temperature.
+03-01-2023 20:57:55, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 20:57:55, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 20:58:01, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 20:58:01: ROOM01, Getting outer temperature.
+03-01-2023 20:58:01, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 20:58:02, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.437} is successfully sent.
+03-01-2023 20:58:11, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 20:58:11: ROOM01, Getting room01 temperature.
+03-01-2023 20:58:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 20:58:14, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 20:58:22, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 20:58:22: ROOM01, Getting room01 pressure.
+03-01-2023 20:58:22, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 20:58:22, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.1} is successfully sent.
+03-01-2023 20:58:35, Received message payload: b'{"CMD": "SET_AUTO_TRUE"}'
+03-01-2023 20:58:35: ROOM01, Auto_mode_true
+03-01-2023 20:58:35, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "SET_AUTO_TRUE"} is successfully executed.
+03-01-2023 20:59:01, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 20:59:01: ROOM01, Getting room01 temperature.
+03-01-2023 20:59:01, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 20:59:01, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 20:59:13, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 20:59:13: ROOM01, Getting room01 humidity.
+03-01-2023 20:59:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 20:59:14, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 20:59:14, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 20:59:14: ROOM01, Getting outer temperature.
+03-01-2023 20:59:15, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 20:59:15, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.437} is successfully sent.
+03-01-2023 20:59:52, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 20:59:52: ROOM01, Getting room01 temperature.
+03-01-2023 20:59:52, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 20:59:52, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:00:21, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:00:21: ROOM01, Getting outer temperature.
+03-01-2023 21:00:21, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:00:22, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.375} is successfully sent.
+03-01-2023 21:00:31, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:00:31: ROOM01, Getting room01 pressure.
+03-01-2023 21:00:32, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:00:32, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.07} is successfully sent.
+03-01-2023 21:00:42, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:00:42: ROOM01, Getting room01 temperature.
+03-01-2023 21:00:43, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:00:43, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:01:35, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:01:35: ROOM01, Getting outer temperature.
+03-01-2023 21:01:36, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:01:36, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.375} is successfully sent.
+03-01-2023 21:01:36, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:01:36: ROOM01, Getting room01 temperature.
+03-01-2023 21:01:36, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:01:36, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:02:21, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:02:21: ROOM01, Getting room01 temperature.
+03-01-2023 21:02:22, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:02:22, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:02:43, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:02:43: ROOM01, Getting room01 pressure.
+03-01-2023 21:02:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:02:44, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.95} is successfully sent.
+03-01-2023 21:02:44, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:02:44: ROOM01, Getting outer temperature.
+03-01-2023 21:02:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:02:44, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.437} is successfully sent.
+03-01-2023 21:03:02, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:03:02: ROOM01, Getting room01 humidity.
+03-01-2023 21:03:02, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:03:02, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:03:11, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:03:11: ROOM01, Getting room01 temperature.
+03-01-2023 21:03:11, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:03:11, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:03:51, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:03:51: ROOM01, Getting outer temperature.
+03-01-2023 21:03:52, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:03:52, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.375} is successfully sent.
+03-01-2023 21:04:01, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:04:01: ROOM01, Getting room01 temperature.
+03-01-2023 21:04:01, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:04:02, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:04:53, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:04:53: ROOM01, Getting room01 pressure.
+03-01-2023 21:04:54, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:04:54, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.96} is successfully sent.
+03-01-2023 21:04:54, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:04:54: ROOM01, Getting room01 temperature.
+03-01-2023 21:04:57, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:04:57, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:05:04, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:05:04: ROOM01, Getting outer temperature.
+03-01-2023 21:05:05, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:05:05, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 21:05:41, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:05:41: ROOM01, Getting room01 temperature.
+03-01-2023 21:05:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:05:44, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:06:11, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:06:11: ROOM01, Getting outer temperature.
+03-01-2023 21:06:12, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:06:12, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 21:06:31, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:06:31: ROOM01, Getting room01 temperature.
+03-01-2023 21:06:34, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:06:34, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:06:59, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:06:59: ROOM01, Getting room01 humidity.
+03-01-2023 21:06:59, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:06:59, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:07:02, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:07:02: ROOM01, Getting room01 pressure.
+03-01-2023 21:07:03, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:07:03, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.01} is successfully sent.
+03-01-2023 21:07:23, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:07:23: ROOM01, Getting outer temperature.
+03-01-2023 21:07:23, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:07:24, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 21:07:24, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:07:24: ROOM01, Getting room01 temperature.
+03-01-2023 21:07:24, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:07:24, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:08:11, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:08:11: ROOM01, Getting room01 temperature.
+03-01-2023 21:08:11, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:08:11, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:08:31, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:08:31: ROOM01, Getting outer temperature.
+03-01-2023 21:08:31, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:08:32, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 21:09:02, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:09:02: ROOM01, Getting room01 temperature.
+03-01-2023 21:09:02, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:09:02, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:09:11, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:09:11: ROOM01, Getting room01 pressure.
+03-01-2023 21:09:11, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:09:11, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.01} is successfully sent.
+03-01-2023 21:09:42, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:09:42: ROOM01, Getting outer temperature.
+03-01-2023 21:09:43, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:09:43, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 21:09:51, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:09:51: ROOM01, Getting room01 temperature.
+03-01-2023 21:09:51, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:09:51, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:10:41, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:10:41: ROOM01, Getting room01 humidity.
+03-01-2023 21:10:41, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:10:41, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:10:51, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:10:51: ROOM01, Getting room01 temperature.
+03-01-2023 21:10:51, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:10:51, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:10:54, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:10:54: ROOM01, Getting outer temperature.
+03-01-2023 21:10:55, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:10:55, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:11:21, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:11:21: ROOM01, Getting room01 pressure.
+03-01-2023 21:11:21, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:11:21, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.04} is successfully sent.
+03-01-2023 21:11:32, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:11:32: ROOM01, Getting room01 temperature.
+03-01-2023 21:11:32, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:11:32, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:12:01, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:12:01: ROOM01, Getting outer temperature.
+03-01-2023 21:12:01, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:12:02, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:12:21, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:12:21: ROOM01, Getting room01 temperature.
+03-01-2023 21:12:24, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:12:24, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:13:13, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:13:13: ROOM01, Getting outer temperature.
+03-01-2023 21:13:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:13:14, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:13:14, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:13:14: ROOM01, Getting room01 temperature.
+03-01-2023 21:13:15, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:13:15, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:13:32, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:13:32: ROOM01, Getting room01 pressure.
+03-01-2023 21:13:32, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:13:32, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.01} is successfully sent.
+03-01-2023 21:14:01, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:14:01: ROOM01, Getting room01 temperature.
+03-01-2023 21:14:01, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:14:01, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:14:22, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:14:22: ROOM01, Getting outer temperature.
+03-01-2023 21:14:23, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:14:23, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:14:31, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:14:31: ROOM01, Getting room01 humidity.
+03-01-2023 21:14:32, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:14:32, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:14:51, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:14:51: ROOM01, Getting room01 temperature.
+03-01-2023 21:14:56, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:14:56, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:15:31, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:15:31: ROOM01, Getting outer temperature.
+03-01-2023 21:15:32, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:15:32, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:15:50, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:15:50: ROOM01, Getting room01 pressure.
+03-01-2023 21:15:50, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:15:50, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.04} is successfully sent.
+03-01-2023 21:15:50, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:15:50: ROOM01, Getting room01 temperature.
+03-01-2023 21:15:51, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:15:51, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:16:31, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:16:31: ROOM01, Getting room01 temperature.
+03-01-2023 21:16:31, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:16:31, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:16:44, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:16:44: ROOM01, Getting outer temperature.
+03-01-2023 21:16:45, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:16:45, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:17:21, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:17:21: ROOM01, Getting room01 temperature.
+03-01-2023 21:17:21, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:17:21, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:17:50, Received message payload: b'{"CMD": "TURN_ON_RELAY01"}'
+03-01-2023 21:17:50: ROOM01, Turning on relay01.
+03-01-2023 21:17:50, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_ON_RELAY01"} is successfully executed.
+03-01-2023 21:17:54, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:17:54: ROOM01, Getting room01 pressure.
+03-01-2023 21:17:55, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:17:55, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.03} is successfully sent.
+03-01-2023 21:17:59, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:17:59: ROOM01, Getting outer temperature.
+03-01-2023 21:18:00, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:18:00, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:18:00, Received message payload: b'{"CMD": "TURN_OFF_RELAY01"}'
+03-01-2023 21:18:00: ROOM01, Turning off relay01.
+03-01-2023 21:18:00, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY01"} is successfully executed.
+03-01-2023 21:18:07, Received message payload: b'{"CMD": "TURN_ON_RELAY02"}'
+03-01-2023 21:18:07: ROOM01, Turning on relay02.
+03-01-2023 21:18:07, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_ON_RELAY02"} is successfully executed.
+03-01-2023 21:18:11, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:18:11: ROOM01, Getting room01 temperature.
+03-01-2023 21:18:11, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:18:11, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:18:14, Received message payload: b'{"CMD": "TURN_OFF_RELAY02"}'
+03-01-2023 21:18:14: ROOM01, Turning off relay02.
+03-01-2023 21:18:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY02"} is successfully executed.
+03-01-2023 21:18:23, Received message payload: b'{"CMD": "TURN_ON_RELAY04"}'
+03-01-2023 21:18:23: ROOM01, Turning on relay04.
+03-01-2023 21:18:23, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_ON_RELAY04"} is successfully executed.
+03-01-2023 21:18:27, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:18:27: ROOM01, Getting room01 humidity.
+03-01-2023 21:18:28, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:18:28, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:18:28, Received message payload: b'{"CMD": "TURN_OFF_RELAY04"}'
+03-01-2023 21:18:28: ROOM01, Turning off relay04.
+03-01-2023 21:18:28, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY04"} is successfully executed.
+03-01-2023 21:19:06, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:19:06: ROOM01, Getting outer temperature.
+03-01-2023 21:19:07, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:19:07, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:19:07, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:19:07: ROOM01, Getting room01 temperature.
+03-01-2023 21:19:07, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:19:08, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:19:51, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:19:51: ROOM01, Getting room01 temperature.
+03-01-2023 21:19:51, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:19:51, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:20:06, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:20:06: ROOM01, Getting room01 pressure.
+03-01-2023 21:20:06, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:20:06, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.02} is successfully sent.
+03-01-2023 21:20:15, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:20:15: ROOM01, Getting outer temperature.
+03-01-2023 21:20:15, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:20:15, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:20:44, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:20:44: ROOM01, Getting room01 temperature.
+03-01-2023 21:20:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:20:44, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:21:21, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:21:21: ROOM01, Getting outer temperature.
+03-01-2023 21:21:21, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:21:22, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:21:31, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:21:31: ROOM01, Getting room01 temperature.
+03-01-2023 21:21:34, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:21:34, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:22:13, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:22:13: ROOM01, Getting room01 humidity.
+03-01-2023 21:22:13, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:22:13, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:22:13, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:22:13: ROOM01, Getting room01 pressure.
+03-01-2023 21:22:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:22:14, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.02} is successfully sent.
+03-01-2023 21:22:21, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:22:21: ROOM01, Getting room01 temperature.
+03-01-2023 21:22:22, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:22:22, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:22:25, Received message payload: b'{"CMD": "SET_AUTO_FALSE"}'
+03-01-2023 21:22:25: ROOM01, Auto_mode_false
+03-01-2023 21:22:25, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "SET_AUTO_FALSE"} is successfully executed.
+03-01-2023 21:22:29, Received message payload: b'{"CMD": "SET_AUTO_TRUE"}'
+03-01-2023 21:22:29: ROOM01, Auto_mode_true
+03-01-2023 21:22:29, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "SET_AUTO_TRUE"} is successfully executed.
+03-01-2023 21:22:36, Received message payload: b'{"CMD": "SET_MAX_ROOM01_TEMP", "TEMP": 22}'
+03-01-2023 21:22:36: ROOM01, Setting maximum temperature to 22 degree
+03-01-2023 21:22:36, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "SET_MAX_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:22:38, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:22:38: ROOM01, Getting outer temperature.
+03-01-2023 21:22:38, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:22:38, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:22:38, Received message payload: b'{"CMD": "SET_MAX_ROOM01_TEMP", "TEMP": 30}'
+03-01-2023 21:22:38: ROOM01, Setting maximum temperature to 30 degree
+03-01-2023 21:22:39, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "SET_MAX_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:22:39: ROOM01, Turning on room01 heater.
+03-01-2023 21:22:39, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_ON_ROOM01_HEATER"} is successfully executed.
+03-01-2023 21:22:39, The answer message {"SYNCH": "TURN_ON_ROOM01_HEATER"} is successfully sent.
+03-01-2023 21:22:42, Received message payload: b'{"CMD": "TURN_ON_ROOM01_HEATER"}'
+03-01-2023 21:22:42: ROOM01, Turning on room01 heater.
+03-01-2023 21:22:42, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_ON_ROOM01_HEATER"} is successfully executed.
+03-01-2023 21:22:46, Received message payload: b'{"CMD": "SET_MAX_ROOM01_TEMP", "TEMP": 23}'
+03-01-2023 21:22:46: ROOM01, Setting maximum temperature to 23 degree
+03-01-2023 21:22:46, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "SET_MAX_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:22:47: ROOM01, Turning off room01 heater.
+03-01-2023 21:22:47, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_ROOM01_HEATER"} is successfully executed.
+03-01-2023 21:22:47, The answer message {"SYNCH": "TURN_OFF_ROOM01_HEATER"} is successfully sent.
+03-01-2023 21:22:50, Received message payload: b'{"CMD": "TURN_OFF_ROOM01_HEATER"}'
+03-01-2023 21:22:50: ROOM01, Turning off room01 heater.
+03-01-2023 21:22:50, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_ROOM01_HEATER"} is successfully executed.
+03-01-2023 21:23:19, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:23:19: ROOM01, Getting room01 temperature.
+03-01-2023 21:23:19, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:23:19, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:23:41, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:23:41: ROOM01, Getting outer temperature.
+03-01-2023 21:23:41, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:23:41, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:24:02, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:24:02: ROOM01, Getting room01 temperature.
+03-01-2023 21:24:03, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:24:03, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:24:21, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:24:21: ROOM01, Getting room01 pressure.
+03-01-2023 21:24:21, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:24:21, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.08} is successfully sent.
+03-01-2023 21:24:59, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:24:59: ROOM01, Getting outer temperature.
+03-01-2023 21:25:00, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:25:00, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:25:00, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:25:00: ROOM01, Getting room01 temperature.
+03-01-2023 21:25:03, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:25:03, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:25:42, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:25:42: ROOM01, Getting room01 temperature.
+03-01-2023 21:25:42, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:25:42, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:26:02, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:26:02: ROOM01, Getting room01 humidity.
+03-01-2023 21:26:05, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:26:05, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:26:05, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:26:05: ROOM01, Getting outer temperature.
+03-01-2023 21:26:06, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:26:06, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:26:31, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:26:31: ROOM01, Getting room01 pressure.
+03-01-2023 21:26:31, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:26:31, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.0} is successfully sent.
+03-01-2023 21:26:34, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:26:34: ROOM01, Getting room01 temperature.
+03-01-2023 21:26:35, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:26:35, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:27:11, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:27:11: ROOM01, Getting outer temperature.
+03-01-2023 21:27:11, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:27:11, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:27:24, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:27:24: ROOM01, Getting room01 temperature.
+03-01-2023 21:27:27, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:27:27, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:28:11, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:28:11: ROOM01, Getting room01 temperature.
+03-01-2023 21:28:11, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:28:11, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:28:21, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:28:21: ROOM01, Getting outer temperature.
+03-01-2023 21:28:22, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:28:22, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:28:41, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:28:41: ROOM01, Getting room01 pressure.
+03-01-2023 21:28:41, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:28:41, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.02} is successfully sent.
+03-01-2023 21:29:02, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:29:02: ROOM01, Getting room01 temperature.
+03-01-2023 21:29:05, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:29:05, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:29:33, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:29:33: ROOM01, Getting outer temperature.
+03-01-2023 21:29:34, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:29:34, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:29:54, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:29:54: ROOM01, Getting room01 humidity.
+03-01-2023 21:29:54, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:29:54, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:29:54, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:29:55: ROOM01, Getting room01 temperature.
+03-01-2023 21:29:55, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:29:55, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:30:43, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:30:43: ROOM01, Getting outer temperature.
+03-01-2023 21:30:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:30:44, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:30:44, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:30:44: ROOM01, Getting room01 temperature.
+03-01-2023 21:30:45, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:30:45, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:30:52, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:30:52: ROOM01, Getting room01 pressure.
+03-01-2023 21:30:52, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:30:52, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.98} is successfully sent.
+03-01-2023 21:31:31, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:31:31: ROOM01, Getting room01 temperature.
+03-01-2023 21:31:34, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:31:34, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:31:55, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:31:55: ROOM01, Getting outer temperature.
+03-01-2023 21:31:56, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:31:56, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:32:23, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:32:23: ROOM01, Getting room01 temperature.
+03-01-2023 21:32:26, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:32:26, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:33:04, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:33:04: ROOM01, Getting room01 pressure.
+03-01-2023 21:33:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:33:04, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 739.04} is successfully sent.
+03-01-2023 21:33:04, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:33:04: ROOM01, Getting outer temperature.
+03-01-2023 21:33:05, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:33:05, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:33:12, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:33:12: ROOM01, Getting room01 temperature.
+03-01-2023 21:33:13, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:33:13, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:33:43, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:33:43: ROOM01, Getting room01 humidity.
+03-01-2023 21:33:43, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:33:43, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:34:02, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:34:02: ROOM01, Getting room01 temperature.
+03-01-2023 21:34:02, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:34:02, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:34:11, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:34:11: ROOM01, Getting outer temperature.
+03-01-2023 21:34:12, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:34:12, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:35:44, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:35:44: ROOM01, Getting room01 temperature.
+03-01-2023 21:35:45, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:35:45, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:36:06, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:36:06: ROOM01, Getting outer temperature.
+03-01-2023 21:36:07, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:36:07, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:36:37, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:36:37: ROOM01, Getting room01 temperature.
+03-01-2023 21:36:37, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:36:37, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:37:06, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:37:06: ROOM01, Getting room01 pressure.
+03-01-2023 21:37:06, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:37:06, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.91} is successfully sent.
+03-01-2023 21:37:17, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:37:17: ROOM01, Getting outer temperature.
+03-01-2023 21:37:18, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:37:18, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:37:28, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:37:28: ROOM01, Getting room01 temperature.
+03-01-2023 21:37:29, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:37:29, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:38:14, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:38:14: ROOM01, Getting room01 temperature.
+03-01-2023 21:38:15, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:38:15, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:38:26, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:38:26: ROOM01, Getting outer temperature.
+03-01-2023 21:38:27, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:38:27, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:38:44, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:38:44: ROOM01, Getting room01 humidity.
+03-01-2023 21:38:45, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:38:45, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:39:06, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:39:06: ROOM01, Getting room01 temperature.
+03-01-2023 21:39:06, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:39:06, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:39:15, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:39:15: ROOM01, Getting room01 pressure.
+03-01-2023 21:39:15, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:39:15, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.88} is successfully sent.
+03-01-2023 21:39:37, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:39:37: ROOM01, Getting outer temperature.
+03-01-2023 21:39:38, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:39:38, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:39:57, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:39:57: ROOM01, Getting room01 temperature.
+03-01-2023 21:39:58, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:39:58, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:40:52, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:40:52: ROOM01, Getting outer temperature.
+03-01-2023 21:40:53, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:40:53, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:40:53, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:40:53: ROOM01, Getting room01 temperature.
+03-01-2023 21:40:53, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:40:53, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:41:26, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:41:26: ROOM01, Getting room01 pressure.
+03-01-2023 21:41:26, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:41:26, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.93} is successfully sent.
+03-01-2023 21:41:34, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:41:34: ROOM01, Getting room01 temperature.
+03-01-2023 21:41:38, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:41:38, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:41:55, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:41:55: ROOM01, Getting outer temperature.
+03-01-2023 21:41:56, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:41:56, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:42:24, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:42:24: ROOM01, Getting room01 temperature.
+03-01-2023 21:42:25, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:42:25, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:42:41, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:42:41: ROOM01, Getting room01 humidity.
+03-01-2023 21:42:46, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:42:46, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:43:04, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:43:04: ROOM01, Getting outer temperature.
+03-01-2023 21:43:05, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:43:05, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:43:17, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:43:17: ROOM01, Getting room01 temperature.
+03-01-2023 21:43:18, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:43:18, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:45:00, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:45:00: ROOM01, Getting room01 temperature.
+03-01-2023 21:45:00, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:45:00, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:45:19, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:45:19: ROOM01, Getting outer temperature.
+03-01-2023 21:45:20, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:45:20, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:45:51, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:45:51: ROOM01, Getting room01 temperature.
+03-01-2023 21:45:52, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:45:52, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:46:43, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:46:43: ROOM01, Getting room01 temperature.
+03-01-2023 21:46:43, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:46:43, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:47:05, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:47:05: ROOM01, Getting outer temperature.
+03-01-2023 21:47:06, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:47:06, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:47:30, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:47:30: ROOM01, Getting room01 temperature.
+03-01-2023 21:47:33, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:47:33, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:48:03, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:48:03: ROOM01, Getting room01 pressure.
+03-01-2023 21:48:03, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:48:03, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.8} is successfully sent.
+03-01-2023 21:48:10, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:48:10: ROOM01, Getting outer temperature.
+03-01-2023 21:48:11, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:48:11, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.062} is successfully sent.
+03-01-2023 21:48:20, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:48:20: ROOM01, Getting room01 temperature.
+03-01-2023 21:48:21, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:48:21, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:49:26, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:49:26: ROOM01, Getting room01 temperature.
+03-01-2023 21:49:26, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:49:27, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:49:37, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:49:37: ROOM01, Getting outer temperature.
+03-01-2023 21:49:38, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:49:38, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:50:08, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:50:08: ROOM01, Getting room01 temperature.
+03-01-2023 21:50:09, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:50:09, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:50:38, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:50:38: ROOM01, Getting room01 pressure.
+03-01-2023 21:50:38, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:50:38, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.68} is successfully sent.
+03-01-2023 21:50:47, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:50:47: ROOM01, Getting outer temperature.
+03-01-2023 21:50:48, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:50:48, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:50:57, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:50:57: ROOM01, Getting room01 temperature.
+03-01-2023 21:51:00, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:51:00, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:51:48, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:51:48: ROOM01, Getting room01 temperature.
+03-01-2023 21:51:48, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:51:49, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:51:57, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:51:57: ROOM01, Getting outer temperature.
+03-01-2023 21:51:58, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:51:58, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:52:18, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:52:18: ROOM01, Getting room01 humidity.
+03-01-2023 21:52:21, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:52:21, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:52:37, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:52:37: ROOM01, Getting room01 temperature.
+03-01-2023 21:52:37, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:52:37, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:52:48, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:52:48: ROOM01, Getting room01 pressure.
+03-01-2023 21:52:49, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:52:49, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.66} is successfully sent.
+03-01-2023 21:53:07, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:53:07: ROOM01, Getting outer temperature.
+03-01-2023 21:53:08, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:53:08, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:53:28, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:53:28: ROOM01, Getting room01 temperature.
+03-01-2023 21:53:28, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:53:28, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:54:18, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:54:18: ROOM01, Getting outer temperature.
+03-01-2023 21:54:19, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:54:19, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:54:19, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:54:19: ROOM01, Getting room01 temperature.
+03-01-2023 21:54:20, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:54:20, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:55:00, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:55:00: ROOM01, Getting room01 pressure.
+03-01-2023 21:55:01, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:55:01, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.77} is successfully sent.
+03-01-2023 21:55:07, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:55:07: ROOM01, Getting room01 temperature.
+03-01-2023 21:55:15, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:55:15, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:55:27, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:55:27: ROOM01, Getting outer temperature.
+03-01-2023 21:55:28, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:55:28, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:55:57, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:55:57: ROOM01, Getting room01 temperature.
+03-01-2023 21:56:03, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:56:03, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:56:08, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 21:56:08: ROOM01, Getting room01 humidity.
+03-01-2023 21:56:09, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 21:56:09, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 21:56:37, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:56:37: ROOM01, Getting outer temperature.
+03-01-2023 21:56:38, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:56:38, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 21:56:47, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:56:47: ROOM01, Getting room01 temperature.
+03-01-2023 21:56:47, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:56:47, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:57:08, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:57:08: ROOM01, Getting room01 pressure.
+03-01-2023 21:57:09, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:57:09, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.82} is successfully sent.
+03-01-2023 21:57:37, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:57:37: ROOM01, Getting room01 temperature.
+03-01-2023 21:57:37, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:57:37, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:57:48, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:57:48: ROOM01, Getting outer temperature.
+03-01-2023 21:57:49, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:57:49, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 21:58:27, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:58:27: ROOM01, Getting room01 temperature.
+03-01-2023 21:58:27, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:58:27, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 21:58:58, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 21:58:58: ROOM01, Getting outer temperature.
+03-01-2023 21:58:59, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 21:58:59, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 21:59:24, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 21:59:24: ROOM01, Getting room01 pressure.
+03-01-2023 21:59:25, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 21:59:25, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.87} is successfully sent.
+03-01-2023 21:59:25, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 21:59:25: ROOM01, Getting room01 temperature.
+03-01-2023 21:59:26, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 21:59:26, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:00:01, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 22:00:01: ROOM01, Getting room01 humidity.
+03-01-2023 22:00:01, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 22:00:01, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 22:00:08, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:00:09: ROOM01, Getting outer temperature.
+03-01-2023 22:00:09, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:00:09, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:00:09, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:00:09: ROOM01, Getting room01 temperature.
+03-01-2023 22:00:10, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:00:10, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:01:32, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:01:32: ROOM01, Getting room01 temperature.
+03-01-2023 22:01:32, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:01:32, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:01:51, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:01:51: ROOM01, Getting outer temperature.
+03-01-2023 22:01:52, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:01:52, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 22:02:21, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:02:21: ROOM01, Getting room01 temperature.
+03-01-2023 22:02:22, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:02:22, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:02:59, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:02:59: ROOM01, Getting room01 pressure.
+03-01-2023 22:03:00, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:03:00, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.74} is successfully sent.
+03-01-2023 22:03:05, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:03:05: ROOM01, Getting outer temperature.
+03-01-2023 22:03:06, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:03:06, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:03:12, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:03:12: ROOM01, Getting room01 temperature.
+03-01-2023 22:03:13, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:03:13, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:04:01, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:04:01: ROOM01, Getting room01 temperature.
+03-01-2023 22:04:02, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:04:02, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:04:12, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:04:12: ROOM01, Getting outer temperature.
+03-01-2023 22:04:13, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:04:13, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.125} is successfully sent.
+03-01-2023 22:04:36, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 22:04:36: ROOM01, Getting room01 humidity.
+03-01-2023 22:04:39, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 22:04:39, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 22:04:55, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:04:55: ROOM01, Getting room01 temperature.
+03-01-2023 22:04:55, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:04:55, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:05:04, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:05:04: ROOM01, Getting room01 pressure.
+03-01-2023 22:05:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:05:04, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.64} is successfully sent.
+03-01-2023 22:05:22, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:05:22: ROOM01, Getting outer temperature.
+03-01-2023 22:05:23, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:05:23, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:05:41, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:05:41: ROOM01, Getting room01 temperature.
+03-01-2023 22:05:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:05:44, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:06:34, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:06:34: ROOM01, Getting outer temperature.
+03-01-2023 22:06:35, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:06:35, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:06:42, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:06:42: ROOM01, Getting room01 temperature.
+03-01-2023 22:06:42, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:06:42, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:07:15, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:07:15: ROOM01, Getting room01 pressure.
+03-01-2023 22:07:15, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:07:15, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.66} is successfully sent.
+03-01-2023 22:07:21, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:07:21: ROOM01, Getting room01 temperature.
+03-01-2023 22:07:22, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:07:22, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:07:44, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:07:44: ROOM01, Getting outer temperature.
+03-01-2023 22:07:45, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:07:45, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:08:11, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:08:11: ROOM01, Getting room01 temperature.
+03-01-2023 22:08:12, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:08:12, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:08:25, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 22:08:25: ROOM01, Getting room01 humidity.
+03-01-2023 22:08:26, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 22:08:26, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 22:08:51, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:08:51: ROOM01, Getting outer temperature.
+03-01-2023 22:08:52, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:08:52, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:09:01, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:09:01: ROOM01, Getting room01 temperature.
+03-01-2023 22:09:02, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:09:02, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:09:23, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:09:23: ROOM01, Getting room01 pressure.
+03-01-2023 22:09:23, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:09:23, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.66} is successfully sent.
+03-01-2023 22:09:51, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:09:51: ROOM01, Getting room01 temperature.
+03-01-2023 22:09:52, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:09:52, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:10:02, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:10:02: ROOM01, Getting outer temperature.
+03-01-2023 22:10:03, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:10:03, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:10:42, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:10:42: ROOM01, Getting room01 temperature.
+03-01-2023 22:10:43, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:10:43, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:11:12, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:11:12: ROOM01, Getting outer temperature.
+03-01-2023 22:11:13, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:11:13, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:11:36, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:11:36: ROOM01, Getting room01 pressure.
+03-01-2023 22:11:36, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:11:36, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.68} is successfully sent.
+03-01-2023 22:11:36, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:11:36: ROOM01, Getting room01 temperature.
+03-01-2023 22:11:37, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:11:37, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:12:11, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 22:12:11: ROOM01, Getting room01 humidity.
+03-01-2023 22:12:12, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 22:12:12, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 22:12:26, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:12:26: ROOM01, Getting outer temperature.
+03-01-2023 22:12:27, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:12:27, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:12:27, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:12:27: ROOM01, Getting room01 temperature.
+03-01-2023 22:12:28, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:12:28, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:13:54, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:13:54: ROOM01, Getting room01 temperature.
+03-01-2023 22:13:55, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:13:55, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:15:53, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:15:53: ROOM01, Getting room01 temperature.
+03-01-2023 22:15:54, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:15:54, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:17:21, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:17:21: ROOM01, Getting room01 temperature.
+03-01-2023 22:17:22, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:17:22, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:17:40, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:17:40: ROOM01, Getting outer temperature.
+03-01-2023 22:17:41, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:17:41, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:18:09, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:18:09: ROOM01, Getting room01 temperature.
+03-01-2023 22:18:09, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:18:09, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:18:38, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:18:38: ROOM01, Getting room01 pressure.
+03-01-2023 22:18:38, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:18:38, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.6} is successfully sent.
+03-01-2023 22:18:49, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:18:49: ROOM01, Getting outer temperature.
+03-01-2023 22:18:50, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:18:50, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:18:58, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:18:58: ROOM01, Getting room01 temperature.
+03-01-2023 22:18:59, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:18:59, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:19:49, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:19:49: ROOM01, Getting room01 temperature.
+03-01-2023 22:19:49, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:19:49, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:19:58, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:19:58: ROOM01, Getting outer temperature.
+03-01-2023 22:19:59, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:19:59, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:20:19, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 22:20:19: ROOM01, Getting room01 humidity.
+03-01-2023 22:20:19, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 22:20:19, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 22:20:38, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:20:38: ROOM01, Getting room01 temperature.
+03-01-2023 22:20:38, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:20:38, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:20:49, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:20:49: ROOM01, Getting room01 pressure.
+03-01-2023 22:20:50, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:20:50, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.53} is successfully sent.
+03-01-2023 22:21:12, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:21:12: ROOM01, Getting outer temperature.
+03-01-2023 22:21:13, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:21:13, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:21:29, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:21:29: ROOM01, Getting room01 temperature.
+03-01-2023 22:21:29, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:21:29, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:22:55, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:22:55: ROOM01, Getting room01 temperature.
+03-01-2023 22:22:56, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:22:56, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:23:16, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:23:16: ROOM01, Getting outer temperature.
+03-01-2023 22:23:17, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:23:17, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:23:48, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:23:48: ROOM01, Getting room01 temperature.
+03-01-2023 22:23:48, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:23:48, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:25:01, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:25:01: ROOM01, Getting room01 temperature.
+03-01-2023 22:25:02, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:25:02, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:25:22, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:25:22: ROOM01, Getting outer temperature.
+03-01-2023 22:25:23, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:25:23, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:25:51, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:25:51: ROOM01, Getting room01 temperature.
+03-01-2023 22:25:52, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:25:52, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:26:24, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:26:24: ROOM01, Getting room01 pressure.
+03-01-2023 22:26:25, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:26:25, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.39} is successfully sent.
+03-01-2023 22:26:31, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:26:31: ROOM01, Getting outer temperature.
+03-01-2023 22:26:32, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:26:32, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:26:41, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:26:41: ROOM01, Getting room01 temperature.
+03-01-2023 22:26:42, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:26:42, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:27:32, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:27:32: ROOM01, Getting room01 temperature.
+03-01-2023 22:27:32, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:27:32, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:27:41, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:27:41: ROOM01, Getting outer temperature.
+03-01-2023 22:27:42, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:27:42, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:28:01, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 22:28:01: ROOM01, Getting room01 humidity.
+03-01-2023 22:28:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 22:28:04, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 22:28:21, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:28:21: ROOM01, Getting room01 temperature.
+03-01-2023 22:28:25, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:28:25, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:28:31, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:28:31: ROOM01, Getting room01 pressure.
+03-01-2023 22:28:31, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:28:31, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.34} is successfully sent.
+03-01-2023 22:28:52, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:28:52: ROOM01, Getting outer temperature.
+03-01-2023 22:28:53, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:28:53, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:29:14, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:29:14: ROOM01, Getting room01 temperature.
+03-01-2023 22:29:15, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:29:15, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:30:03, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:30:03: ROOM01, Getting outer temperature.
+03-01-2023 22:30:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:30:04, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:30:04, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:30:04: ROOM01, Getting room01 temperature.
+03-01-2023 22:30:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:30:04, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:30:44, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:30:44: ROOM01, Getting room01 pressure.
+03-01-2023 22:30:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:30:44, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.29} is successfully sent.
+03-01-2023 22:31:32, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:31:32: ROOM01, Getting room01 temperature.
+03-01-2023 22:31:33, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:31:33, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:31:54, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:31:54: ROOM01, Getting outer temperature.
+03-01-2023 22:31:55, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:31:55, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:32:22, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:32:22: ROOM01, Getting room01 temperature.
+03-01-2023 22:32:23, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:32:23, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:32:54, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:32:54: ROOM01, Getting room01 pressure.
+03-01-2023 22:32:54, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:32:54, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.28} is successfully sent.
+03-01-2023 22:33:02, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:33:02: ROOM01, Getting outer temperature.
+03-01-2023 22:33:03, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:33:03, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:33:12, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:33:12: ROOM01, Getting room01 temperature.
+03-01-2023 22:33:13, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:33:13, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:34:03, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:34:03: ROOM01, Getting room01 temperature.
+03-01-2023 22:34:06, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:34:06, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:34:12, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:34:12: ROOM01, Getting outer temperature.
+03-01-2023 22:34:13, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:34:13, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:34:36, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 22:34:36: ROOM01, Getting room01 humidity.
+03-01-2023 22:34:36, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 22:34:36, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 22:34:52, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:34:52: ROOM01, Getting room01 temperature.
+03-01-2023 22:34:53, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:34:53, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:35:04, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:35:04: ROOM01, Getting room01 pressure.
+03-01-2023 22:35:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:35:04, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.27} is successfully sent.
+03-01-2023 22:35:24, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:35:24: ROOM01, Getting outer temperature.
+03-01-2023 22:35:25, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:35:25, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:35:43, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:35:43: ROOM01, Getting room01 temperature.
+03-01-2023 22:35:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:35:44, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:36:35, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:36:35: ROOM01, Getting outer temperature.
+03-01-2023 22:36:36, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:36:36, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:36:39, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:36:39: ROOM01, Getting room01 temperature.
+03-01-2023 22:36:42, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:36:42, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:37:13, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:37:13: ROOM01, Getting room01 pressure.
+03-01-2023 22:37:13, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:37:13, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.29} is successfully sent.
+03-01-2023 22:38:06, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:38:06: ROOM01, Getting room01 temperature.
+03-01-2023 22:38:07, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:38:07, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:38:25, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:38:25: ROOM01, Getting outer temperature.
+03-01-2023 22:38:26, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:38:26, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.187} is successfully sent.
+03-01-2023 22:38:56, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:38:56: ROOM01, Getting room01 temperature.
+03-01-2023 22:38:57, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:38:57, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:39:25, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:39:25: ROOM01, Getting room01 pressure.
+03-01-2023 22:39:26, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:39:26, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.29} is successfully sent.
+03-01-2023 22:39:35, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:39:35: ROOM01, Getting outer temperature.
+03-01-2023 22:39:36, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:39:36, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:39:45, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:39:45: ROOM01, Getting room01 temperature.
+03-01-2023 22:39:46, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:39:46, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:40:37, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:40:37: ROOM01, Getting room01 temperature.
+03-01-2023 22:40:37, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:40:37, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:40:45, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:40:45: ROOM01, Getting outer temperature.
+03-01-2023 22:40:46, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:40:46, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:41:08, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 22:41:08: ROOM01, Getting room01 humidity.
+03-01-2023 22:41:08, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 22:41:08, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 22:43:13, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:43:13: ROOM01, Getting room01 temperature.
+03-01-2023 22:43:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:43:14, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:43:34, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:43:34: ROOM01, Getting outer temperature.
+03-01-2023 22:43:35, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:43:35, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:44:03, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:44:03: ROOM01, Getting room01 temperature.
+03-01-2023 22:44:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:44:04, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:44:33, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:44:33: ROOM01, Getting room01 pressure.
+03-01-2023 22:44:33, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:44:33, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.29} is successfully sent.
+03-01-2023 22:44:43, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:44:43: ROOM01, Getting outer temperature.
+03-01-2023 22:44:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:44:44, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:44:53, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:44:53: ROOM01, Getting room01 temperature.
+03-01-2023 22:44:54, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:44:54, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:45:44, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:45:44: ROOM01, Getting room01 temperature.
+03-01-2023 22:45:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:45:44, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:45:53, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:45:53: ROOM01, Getting outer temperature.
+03-01-2023 22:45:54, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:45:54, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:46:13, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 22:46:13: ROOM01, Getting room01 humidity.
+03-01-2023 22:46:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 22:46:14, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 22:46:34, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:46:34: ROOM01, Getting room01 temperature.
+03-01-2023 22:46:35, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:46:35, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:46:43, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:46:43: ROOM01, Getting room01 pressure.
+03-01-2023 22:46:43, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:46:43, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.27} is successfully sent.
+03-01-2023 22:47:04, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:47:04: ROOM01, Getting outer temperature.
+03-01-2023 22:47:05, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:47:05, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 22:47:29, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:47:29: ROOM01, Getting room01 temperature.
+03-01-2023 22:47:29, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:47:29, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:48:16, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:48:16: ROOM01, Getting outer temperature.
+03-01-2023 22:48:17, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:48:17, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 22:48:17, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:48:17: ROOM01, Getting room01 temperature.
+03-01-2023 22:48:18, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:48:18, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:48:54, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:48:54: ROOM01, Getting room01 pressure.
+03-01-2023 22:48:55, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:48:55, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.27} is successfully sent.
+03-01-2023 22:49:06, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:49:06: ROOM01, Getting room01 temperature.
+03-01-2023 22:49:06, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:49:06, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:49:24, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:49:24: ROOM01, Getting outer temperature.
+03-01-2023 22:49:25, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:49:25, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 22:49:53, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:49:53: ROOM01, Getting room01 temperature.
+03-01-2023 22:49:54, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:49:54, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:50:07, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 22:50:07: ROOM01, Getting room01 humidity.
+03-01-2023 22:50:10, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 22:50:10, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 22:50:33, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:50:33: ROOM01, Getting outer temperature.
+03-01-2023 22:50:34, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:50:34, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 22:50:45, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:50:45: ROOM01, Getting room01 temperature.
+03-01-2023 22:50:48, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:50:48, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:51:03, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:51:03: ROOM01, Getting room01 pressure.
+03-01-2023 22:51:03, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:51:03, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.25} is successfully sent.
+03-01-2023 22:51:39, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:51:40: ROOM01, Getting room01 temperature.
+03-01-2023 22:51:40, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:51:40, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:51:46, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:51:46: ROOM01, Getting outer temperature.
+03-01-2023 22:51:47, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:51:47, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:52:24, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:52:24: ROOM01, Getting room01 temperature.
+03-01-2023 22:52:25, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:52:25, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:52:53, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:52:53: ROOM01, Getting outer temperature.
+03-01-2023 22:52:54, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:52:54, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 22:53:13, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:53:13: ROOM01, Getting room01 pressure.
+03-01-2023 22:53:13, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:53:13, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.19} is successfully sent.
+03-01-2023 22:53:19, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:53:19: ROOM01, Getting room01 temperature.
+03-01-2023 22:53:20, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:53:20, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:53:53, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 22:53:53: ROOM01, Getting room01 humidity.
+03-01-2023 22:53:54, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 22:53:54, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 22:54:08, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:54:08: ROOM01, Getting outer temperature.
+03-01-2023 22:54:09, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:54:09, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:54:09, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:54:09: ROOM01, Getting room01 temperature.
+03-01-2023 22:54:10, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:54:10, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:54:54, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:54:54: ROOM01, Getting room01 temperature.
+03-01-2023 22:54:55, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:54:55, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:55:13, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:55:13: ROOM01, Getting outer temperature.
+03-01-2023 22:55:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:55:14, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 22:55:23, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:55:23: ROOM01, Getting room01 pressure.
+03-01-2023 22:55:23, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:55:23, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.14} is successfully sent.
+03-01-2023 22:55:47, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:55:47: ROOM01, Getting room01 temperature.
+03-01-2023 22:55:47, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:55:47, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:56:23, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:56:23: ROOM01, Getting outer temperature.
+03-01-2023 22:56:24, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:56:24, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:56:33, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:56:33: ROOM01, Getting room01 temperature.
+03-01-2023 22:56:34, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:56:34, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:57:24, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:57:24: ROOM01, Getting room01 temperature.
+03-01-2023 22:57:27, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:57:27, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:57:36, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:57:36: ROOM01, Getting room01 pressure.
+03-01-2023 22:57:36, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:57:36, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.14} is successfully sent.
+03-01-2023 22:57:42, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:57:42: ROOM01, Getting outer temperature.
+03-01-2023 22:57:43, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:57:43, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:57:46, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 22:57:46: ROOM01, Getting room01 humidity.
+03-01-2023 22:57:46, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 22:57:46, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 22:58:14, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:58:14: ROOM01, Getting room01 temperature.
+03-01-2023 22:58:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:58:14, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:58:43, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:58:43: ROOM01, Getting outer temperature.
+03-01-2023 22:58:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:58:44, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 22:59:04, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:59:04: ROOM01, Getting room01 temperature.
+03-01-2023 22:59:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:59:04, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 22:59:43, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 22:59:43: ROOM01, Getting room01 pressure.
+03-01-2023 22:59:43, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 22:59:43, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.18} is successfully sent.
+03-01-2023 22:59:56, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 22:59:56: ROOM01, Getting outer temperature.
+03-01-2023 22:59:57, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 22:59:57, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 22:59:58, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 22:59:58: ROOM01, Getting room01 temperature.
+03-01-2023 22:59:59, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 22:59:59, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:00:43, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:00:43: ROOM01, Getting room01 temperature.
+03-01-2023 23:00:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:00:44, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:01:09, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 23:01:09: ROOM01, Getting outer temperature.
+03-01-2023 23:01:09, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 23:01:09, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 23:01:33, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 23:01:33: ROOM01, Getting room01 humidity.
+03-01-2023 23:01:34, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 23:01:34, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 23:01:42, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:01:42: ROOM01, Getting room01 temperature.
+03-01-2023 23:01:42, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:01:42, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:01:53, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 23:01:53: ROOM01, Getting room01 pressure.
+03-01-2023 23:01:53, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 23:01:54, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.06} is successfully sent.
+03-01-2023 23:02:13, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 23:02:13: ROOM01, Getting outer temperature.
+03-01-2023 23:02:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 23:02:14, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 23:02:23, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:02:23: ROOM01, Getting room01 temperature.
+03-01-2023 23:02:24, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:02:24, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:03:14, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:03:14: ROOM01, Getting room01 temperature.
+03-01-2023 23:03:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:03:14, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:03:23, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 23:03:23: ROOM01, Getting outer temperature.
+03-01-2023 23:03:24, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 23:03:24, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.375} is successfully sent.
+03-01-2023 23:04:06, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 23:04:06: ROOM01, Getting room01 pressure.
+03-01-2023 23:04:06, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 23:04:06, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 738.02} is successfully sent.
+03-01-2023 23:04:06, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:04:06: ROOM01, Getting room01 temperature.
+03-01-2023 23:04:07, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:04:07, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:04:34, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 23:04:34: ROOM01, Getting outer temperature.
+03-01-2023 23:04:35, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 23:04:35, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.375} is successfully sent.
+03-01-2023 23:04:53, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:04:54: ROOM01, Getting room01 temperature.
+03-01-2023 23:04:54, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:04:54, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:05:24, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 23:05:24: ROOM01, Getting room01 humidity.
+03-01-2023 23:05:25, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 23:05:25, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 28.0} is successfully sent.
+03-01-2023 23:05:43, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 23:05:43: ROOM01, Getting outer temperature.
+03-01-2023 23:05:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 23:05:44, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 23:05:47, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:05:47: ROOM01, Getting room01 temperature.
+03-01-2023 23:05:48, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:05:48, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:06:13, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 23:06:13: ROOM01, Getting room01 pressure.
+03-01-2023 23:06:13, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 23:06:14, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 737.98} is successfully sent.
+03-01-2023 23:06:34, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:06:34: ROOM01, Getting room01 temperature.
+03-01-2023 23:06:35, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:06:35, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:06:53, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 23:06:53: ROOM01, Getting outer temperature.
+03-01-2023 23:06:54, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 23:06:54, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 23:07:24, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:07:24: ROOM01, Getting room01 temperature.
+03-01-2023 23:07:27, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:07:27, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:08:13, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 23:08:13: ROOM01, Getting outer temperature.
+03-01-2023 23:08:14, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 23:08:14, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 23:08:19, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:08:19: ROOM01, Getting room01 temperature.
+03-01-2023 23:08:19, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:08:20, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:08:27, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 23:08:27: ROOM01, Getting room01 pressure.
+03-01-2023 23:08:27, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 23:08:27, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 737.93} is successfully sent.
+03-01-2023 23:09:06, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:09:06: ROOM01, Getting room01 temperature.
+03-01-2023 23:09:06, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:09:06, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:09:26, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 23:09:26: ROOM01, Getting room01 humidity.
+03-01-2023 23:09:27, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 23:09:27, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 29.0} is successfully sent.
+03-01-2023 23:09:28, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 23:09:28: ROOM01, Getting outer temperature.
+03-01-2023 23:09:29, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 23:09:29, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.25} is successfully sent.
+03-01-2023 23:10:05, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:10:05: ROOM01, Getting room01 temperature.
+03-01-2023 23:10:06, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:10:06, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:10:29, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 23:10:29: ROOM01, Getting outer temperature.
+03-01-2023 23:10:30, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 23:10:30, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.375} is successfully sent.
+03-01-2023 23:10:37, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 23:10:37: ROOM01, Getting room01 pressure.
+03-01-2023 23:10:38, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 23:10:38, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 737.84} is successfully sent.
+03-01-2023 23:10:43, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:10:43: ROOM01, Getting room01 temperature.
+03-01-2023 23:10:44, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:10:44, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:11:33, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 23:11:33: ROOM01, Getting outer temperature.
+03-01-2023 23:11:34, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 23:11:34, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 23:11:39, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:11:39: ROOM01, Getting room01 temperature.
+03-01-2023 23:11:39, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:11:39, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:12:31, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:12:31: ROOM01, Getting room01 temperature.
+03-01-2023 23:12:31, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:12:31, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:12:45, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 23:12:45: ROOM01, Getting room01 pressure.
+03-01-2023 23:12:45, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+03-01-2023 23:12:45, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 737.79} is successfully sent.
+03-01-2023 23:12:46, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 23:12:46: ROOM01, Getting outer temperature.
+03-01-2023 23:12:46, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 23:12:46, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.312} is successfully sent.
+03-01-2023 23:13:04, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+03-01-2023 23:13:04: ROOM01, Getting room01 humidity.
+03-01-2023 23:13:07, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+03-01-2023 23:13:07, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 29.0} is successfully sent.
+03-01-2023 23:13:13, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:13:13: ROOM01, Getting room01 temperature.
+03-01-2023 23:13:16, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:13:16, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:13:54, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+03-01-2023 23:13:54: ROOM01, Getting outer temperature.
+03-01-2023 23:13:55, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+03-01-2023 23:13:55, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 29.375} is successfully sent.
+03-01-2023 23:14:03, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+03-01-2023 23:14:03: ROOM01, Getting room01 temperature.
+03-01-2023 23:14:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+03-01-2023 23:14:04, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 29.0} is successfully sent.
+03-01-2023 23:14:55, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+03-01-2023 23:14:55: ROOM01, Getting room01 pressure.
+03-01-2023 23:14:56, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.08-01-2023 18:51:36, Result from connect: Connection Accepted.
+08-01-2023 18:51:44, I've subscribed with QoS: 2
+08-01-2023 18:51:44: ROOM01, Setting maximum temperature to 23 degree
+08-01-2023 18:51:44, The answer message {"SYNCH": "SET_MAX_ROOM01_TEMP", "DATA": 23} is successfully sent.
+08-01-2023 18:51:44: ROOM01, Auto_mode_true
+08-01-2023 18:51:44, The answer message {"SYNCH": "SET_AUTO_TRUE"} is successfully sent.
+08-01-2023 18:51:44: ROOM01, Turning off room01 heater.
+08-01-2023 18:51:44, The answer message {"SYNCH": "TURN_OFF_ROOM01_HEATER"} is successfully sent.
+08-01-2023 18:51:44: ROOM01, Turning off relay01.
+08-01-2023 18:51:44, The answer message {"SYNCH": "TURN_OFF_RELAY01"} is successfully sent.
+08-01-2023 18:51:44: ROOM01, Turning off relay02.
+08-01-2023 18:51:44, The answer message {"SYNCH": "TURN_OFF_RELAY02"} is successfully sent.
+08-01-2023 18:51:44: ROOM01, Turning off relay03.
+08-01-2023 18:51:44, The answer message {"SYNCH": "TURN_OFF_RELAY03"} is successfully sent.
+08-01-2023 18:51:44: ROOM01, Turning off relay04.
+08-01-2023 18:51:44, The answer message {"SYNCH": "TURN_OFF_RELAY04"} is successfully sent.
+08-01-2023 18:52:02, Received message payload: b'{"CMD": "SET_MAX_ROOM01_TEMP", "TEMP": 23}'
+08-01-2023 18:52:02: ROOM01, Setting maximum temperature to 23 degree
+08-01-2023 18:52:02, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "SET_MAX_ROOM01_TEMP"} is successfully executed.
+08-01-2023 18:52:04, Received message payload: b'{"CMD": "SET_AUTO_TRUE"}'
+08-01-2023 18:52:04: ROOM01, Auto_mode_true
+08-01-2023 18:52:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "SET_AUTO_TRUE"} is successfully executed.
+08-01-2023 18:52:04, Received message payload: b'{"CMD": "TURN_OFF_ROOM01_HEATER"}'
+08-01-2023 18:52:04: ROOM01, Turning off room01 heater.
+08-01-2023 18:52:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_ROOM01_HEATER"} is successfully executed.
+08-01-2023 18:52:04, Received message payload: b'{"CMD": "TURN_OFF_RELAY01"}'
+08-01-2023 18:52:04: ROOM01, Turning off relay01.
+08-01-2023 18:52:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY01"} is successfully executed.
+08-01-2023 18:52:04, Received message payload: b'{"CMD": "TURN_OFF_RELAY02"}'
+08-01-2023 18:52:04: ROOM01, Turning off relay02.
+08-01-2023 18:52:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY02"} is successfully executed.
+08-01-2023 18:52:04, Received message payload: b'{"CMD": "TURN_OFF_RELAY03"}'
+08-01-2023 18:52:04: ROOM01, Turning off relay03.
+08-01-2023 18:52:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY03"} is successfully executed.
+08-01-2023 18:52:04, Received message payload: b'{"CMD": "TURN_OFF_RELAY04"}'
+08-01-2023 18:52:04: ROOM01, Turning off relay04.
+08-01-2023 18:52:04, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "TURN_OFF_RELAY04"} is successfully executed.
+08-01-2023 18:52:16, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+08-01-2023 18:52:16: ROOM01, Getting room01 temperature.
+08-01-2023 18:52:17, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+08-01-2023 18:52:17, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 31.0} is successfully sent.
+08-01-2023 18:52:29, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+08-01-2023 18:52:29: ROOM01, Getting room01 pressure.
+08-01-2023 18:52:30, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+08-01-2023 18:52:30, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 754.18} is successfully sent.
+08-01-2023 18:52:30, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+08-01-2023 18:52:30: ROOM01, Getting outer temperature.
+08-01-2023 18:52:31, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+08-01-2023 18:52:31, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 31.625} is successfully sent.
+08-01-2023 18:52:49, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+08-01-2023 18:52:49: ROOM01, Getting room01 humidity.
+08-01-2023 18:52:50, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+08-01-2023 18:52:50, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 17.0} is successfully sent.
+08-01-2023 18:53:06, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+08-01-2023 18:53:06: ROOM01, Getting room01 temperature.
+08-01-2023 18:53:09, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+08-01-2023 18:53:10, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 32.0} is successfully sent.
+08-01-2023 18:53:36, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+08-01-2023 18:53:36: ROOM01, Getting outer temperature.
+08-01-2023 18:53:37, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+08-01-2023 18:53:37, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 31.625} is successfully sent.
+08-01-2023 18:53:57, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+08-01-2023 18:53:57: ROOM01, Getting room01 temperature.
+08-01-2023 18:53:57, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+08-01-2023 18:53:57, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 32.0} is successfully sent.
+08-01-2023 18:54:34, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+08-01-2023 18:54:34: ROOM01, Getting room01 pressure.
+08-01-2023 18:54:34, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+08-01-2023 18:54:34, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 754.25} is successfully sent.
+08-01-2023 18:54:46, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+08-01-2023 18:54:46: ROOM01, Getting outer temperature.
+08-01-2023 18:54:47, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+08-01-2023 18:54:47, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 31.625} is successfully sent.
+08-01-2023 18:54:50, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+08-01-2023 18:54:50: ROOM01, Getting room01 temperature.
+08-01-2023 18:54:53, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+08-01-2023 18:54:53, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 32.0} is successfully sent.
+08-01-2023 18:55:37, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+08-01-2023 18:55:37: ROOM01, Getting room01 temperature.
+08-01-2023 18:55:45, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+08-01-2023 18:55:45, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 32.0} is successfully sent.
+08-01-2023 18:56:00, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'
+08-01-2023 18:56:00: ROOM01, Getting outer temperature.
+08-01-2023 18:56:01, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_OUTER_TEMP"} is successfully executed.
+08-01-2023 18:56:01, The answer message {"ANSW": "GET_OUTER_TEMP", "DATA": 31.687} is successfully sent.
+08-01-2023 18:56:27, Received message payload: b'{"CMD": "GET_ROOM01_TEMP"}'
+08-01-2023 18:56:27: ROOM01, Getting room01 temperature.
+08-01-2023 18:56:28, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_TEMP"} is successfully executed.
+08-01-2023 18:56:28, The answer message {"ANSW": "GET_ROOM01_TEMP", "DATA": 32.0} is successfully sent.
+08-01-2023 18:56:33, Received message payload: b'{"CMD": "GET_ROOM01_HUMIDITY"}'
+08-01-2023 18:56:33: ROOM01, Getting room01 humidity.
+08-01-2023 18:56:34, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_HUMIDITY"} is successfully executed.
+08-01-2023 18:56:34, The answer message {"ANSW": "GET_ROOM01_HUMIDITY", "DATA": 17.0} is successfully sent.
+08-01-2023 18:56:45, Received message payload: b'{"CMD": "GET_ROOM01_PRESSURE"}'
+08-01-2023 18:56:45: ROOM01, Getting room01 pressure.
+08-01-2023 18:56:45, The message {"SUCCESSFULLY_PROCESSED_COMMAND": "GET_ROOM01_PRESSURE"} is successfully executed.
+08-01-2023 18:56:45, The answer message {"ANSW": "GET_ROOM01_PRESSURE", "DATA": 754.17} is successfully sent.
+08-01-2023 18:57:05, Received message payload: b'{"CMD": "GET_OUTER_TEMP"}'

@@ -34,5 +34,6 @@ def gettemp(id):
 if __name__ == '__main__':
 
   # Script has been called directly
-  id = '28-011564b20bff'
-  print ('Temp : ' + '{:.3f}'.format(gettemp(id)/float(1000)))
+  id_tuple = ('28-3cd5f648d8b7', '28-3c01d075687d')
+  for id in id_tuple:
+    print ('Temp : ' + '{:.3f}'.format(gettemp(id)/float(1000)))

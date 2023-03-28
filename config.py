@@ -17,7 +17,6 @@ ds18b20_id_out = "28-3cd5f648d8b7"
 # ds18b20_id_room = "28-0115718d9dff"
 # ds18b20_id_out = "28-011564b20bff"
 
-
 dict_relay_pins = {
     "ROOM01_HEATER_PIN": 27,
     "RELAY01_PIN": 12,
