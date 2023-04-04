@@ -6,7 +6,7 @@ def on_connect(client, userdata, flags, rc):
     print("Result from connect: {}".format(
         mqtt.connack_string(rc)))
     # Subscribe to the alvidino/room01/panel topic filter
-    client.subscribe("alvidino/room01/panel", qos=2)
+    client.subscribe("alvidino/ROOM01/commands", qos=2)
 
 
 def on_subscribe(client, userdata, mid, granted_qos):

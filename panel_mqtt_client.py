@@ -394,3 +394,5 @@ if __name__ == "__main__":
     lcd_show = Thread(target=show_lcd_info, args=(timestamp,))
     lcd_show.daemon=True
     lcd_show.start()
+    
+    

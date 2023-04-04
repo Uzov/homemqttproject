@@ -37,10 +37,14 @@ class Sensors:
 
     def get_DHT11_data(self, dht_pin): 
         sensor = DHT11.DHT11
-        humidity, temp = DHT11.read_retry(sensor, dht_pin)    
+        '''humidity, temp = DHT11.read_retry(sensor, dht_pin)    
         dict_DHT11 = {
             KEY_TEMP: temp,
             KEY_HUMIDITY: humidity,
+        }'''
+        dict_DHT11 = {
+            KEY_TEMP: 25,
+            KEY_HUMIDITY: 75,
         }
         return dict_DHT11
 
