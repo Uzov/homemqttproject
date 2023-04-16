@@ -108,6 +108,7 @@ class Sensors:
             KEY_PRESSURE: round((data.pressure * 0.750062), 2),
             KEY_HUMIDITY: round(data.humidity, 2),
         }
+        bus.close()
         return dict_BME285
 
 

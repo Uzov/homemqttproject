@@ -340,12 +340,12 @@ def show_lcd_info(start_time):
             lcd.lcd_display_string(time.strftime(' -= %H:%M:%S =- ', local_time), 2, 0)
             # lcd.lcd_display_string(f't={round(room_climate[KEY_TEMP], 1)}C   ', 2, 9)
         if (5 < (time.time() - start_time) < 10):
-            lcd.lcd_display_string(f'Room temp.:{round(room_climate[KEY_TEMP], 2)}C   ', 1, 0)
-            lcd.lcd_display_string(f'Room hum.:{round(room_climate[KEY_HUMIDITY], 2)}% ', 2, 0)
+            lcd.lcd_display_string(f'Room temp.:{round(room_climate[KEY_TEMP], 1)}C   ', 1, 0)
+            lcd.lcd_display_string(f'Room hum.:{round(room_climate[KEY_HUMIDITY], 1)}% ', 2, 0)
         if (10 < (time.time() - start_time) < 15):
-            lcd.lcd_display_string(f'Out temp.:{round(out_climate[KEY_TEMP], 2)}C   ', 1, 0)
+            lcd.lcd_display_string(f'Out temp.:{round(out_climate[KEY_TEMP], 1)}C   ', 1, 0)
             # lcd.lcd_display_string(f'Room hum.:{room_climate[KEY_HUMIDITY]}% ', 2, 0)
-            lcd.lcd_display_string(f'Pressure:{round(room_climate[KEY_PRESSURE], 2)}mm  ', 2, 0)
+            lcd.lcd_display_string(f'Pressure:{round(room_climate[KEY_PRESSURE], 1)}mm  ', 2, 0)
         if (time.time() - start_time) > 15:
             # Очистка дисплея. Но лучше не очищать, а перезаписывать.
             # lcd.lcd_clear()
