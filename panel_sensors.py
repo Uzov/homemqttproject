@@ -108,6 +108,8 @@ class Sensors:
             KEY_PRESSURE: round((data.pressure * 0.750062), 2),
             KEY_HUMIDITY: round(data.humidity, 2),
         }
+        # Исправление ошибки:
+        # OSError: Error 24 Too Many Open Files: '/dev/i2c-1'
         bus.close()
         return dict_BME285
 
