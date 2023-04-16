@@ -30,18 +30,18 @@ class Panel:
    
     def get_room01_temp(self):
         self.print_action_with_name_prefix("Getting room01 temperature.")
-        return sensors.get_DHT11_data(DHT_PIN)[KEY_TEMP]
-        # return sensors.get_bme280_data(self.port, self.address)[KEY_TEMP]
+        # return sensors.get_DHT11_data(DHT_PIN)[KEY_TEMP]
+        return sensors.get_bme280_data(self.port, self.address)[KEY_TEMP]
 
     def get_room01_humidity(self):
         self.print_action_with_name_prefix("Getting room01 humidity.")
-        return sensors.get_DHT11_data(DHT_PIN)[KEY_HUMIDITY]
-        # return sensors.get_bme280_data(self.port, self.address)[KEY_HUMIDITY]
+        # return sensors.get_DHT11_data(DHT_PIN)[KEY_HUMIDITY]
+        return sensors.get_bme280_data(self.port, self.address)[KEY_HUMIDITY]
 
     def get_room01_pressure(self):
         self.print_action_with_name_prefix("Getting room01 pressure.")
-        return sensors.get_BMP085_data()[KEY_PRESSURE]
-        # return sensors.get_bme280_data(self.port, self.address)[KEY_PRESSURE]
+        # return sensors.get_BMP085_data()[KEY_PRESSURE]
+        return sensors.get_bme280_data(self.port, self.address)[KEY_PRESSURE]
    
     def get_outer_temp(self):
         self.print_action_with_name_prefix("Getting outer temperature.")
@@ -324,17 +324,15 @@ def show_lcd_info(start_time):
     lock=threading.Lock()
     lcd = I2C_LCD_driver.lcd()
     lcd.lcd_clear()
-    #port = 1
-    #address = 0x76
     # Счётчик, чтобы часто не опрашивать датчики, иначе он выдаёт None
     r = 3
     while True:
         local_time = time.localtime(sensors.get_rtc_time())
         if (r >= 3):
             with lock:
-                room_climate = sensors.get_DHT11_data(DHT_PIN)
-                pressure = sensors.get_BMP085_data()
-                # room_climate = sensors.get_bme280_data(port, address)
+                # room_climate = sensors.get_DHT11_data(DHT_PIN)
+                # pressure = sensors.get_BMP085_data()
+                room_climate = sensors.get_bme280_data(panel.port, panel.address)
                 out_climate = sensors.get_ds18b20_data(ds18b20_id_out)
             r = 0
         if (0 < (time.time() - start_time) < 5):
@@ -342,12 +340,12 @@ def show_lcd_info(start_time):
             lcd.lcd_display_string(time.strftime(' -= %H:%M:%S =- ', local_time), 2, 0)
             # lcd.lcd_display_string(f't={round(room_climate[KEY_TEMP], 1)}C   ', 2, 9)
         if (5 < (time.time() - start_time) < 10):
-            lcd.lcd_display_string(f'Room temp.:{round(room_climate[KEY_TEMP], 1)}C   ', 1, 0)
-            lcd.lcd_display_string(f'Room hum.:{room_climate[KEY_HUMIDITY]}% ', 2, 0)
+            lcd.lcd_display_string(f'Room temp.:{round(room_climate[KEY_TEMP], 2)}C   ', 1, 0)
+            lcd.lcd_display_string(f'Room hum.:{round(room_climate[KEY_HUMIDITY], 2)}% ', 2, 0)
         if (10 < (time.time() - start_time) < 15):
             lcd.lcd_display_string(f'Out temp.:{round(out_climate[KEY_TEMP], 2)}C   ', 1, 0)
             # lcd.lcd_display_string(f'Room hum.:{room_climate[KEY_HUMIDITY]}% ', 2, 0)
-            lcd.lcd_display_string(f'Pressure:{round(pressure[KEY_PRESSURE], 1)}mm  ', 2, 0)
+            lcd.lcd_display_string(f'Pressure:{round(room_climate[KEY_PRESSURE], 2)}mm  ', 2, 0)
         if (time.time() - start_time) > 15:
             # Очистка дисплея. Но лучше не очищать, а перезаписывать.
             # lcd.lcd_clear()
@@ -361,8 +359,10 @@ def main_func():
         # Process messages and the commands every 1 second
         with lock:
             panel_command_processor.process_incoming_commands()
-            room_temp = sensors.get_DHT11_data(DHT_PIN)[KEY_TEMP]
+            # room_temp = sensors.get_DHT11_data(DHT_PIN)[KEY_TEMP]
             # room_temp = sensors.get_ds18b20_data(ds18b20_id_room)[KEY_TEMP]
+            room_temp = sensors.get_bme280_data(panel.port, panel.address)[KEY_TEMP]
+
         if ((room_temp is not None) and panel.auto): 
             room_temp=int(room_temp)
             if (room_temp < (panel_command_processor.max_temp_degree - panel_command_processor.delta)) \

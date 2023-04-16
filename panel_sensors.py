@@ -37,14 +37,10 @@ class Sensors:
 
     def get_DHT11_data(self, dht_pin): 
         sensor = DHT11.DHT11
-        '''humidity, temp = DHT11.read_retry(sensor, dht_pin)    
+        humidity, temp = DHT11.read_retry(sensor, dht_pin)    
         dict_DHT11 = {
             KEY_TEMP: temp,
             KEY_HUMIDITY: humidity,
-        }'''
-        dict_DHT11 = {
-            KEY_TEMP: 25,
-            KEY_HUMIDITY: 75,
         }
         return dict_DHT11
 
@@ -120,12 +116,12 @@ if __name__ == "__main__":
         sensors = Sensors('ROOM01')
         sensors.init_gpio_pins()
         # print(sensors01.get_BMP085_data())
-        print(sensors.get_DHT11_data(DHT_PIN))
+        # print(sensors.get_DHT11_data(DHT_PIN))
         print(sensors.get_ds18b20_data(ds18b20_id_out))
         print(sensors.get_ds18b20_data(ds18b20_id_room))
-        # print(f'BME280 temperature: {sensors.get_bme280_data(1, 0x76)[KEY_TEMP]}')
-        # print(f'BME280 humidity: {sensors.get_bme280_data(1, 0x76)[KEY_HUMIDITY]}')
-        # print(f'BME280 pressure: {sensors.get_bme280_data(1, 0x76)[KEY_PRESSURE]}')
+        print(f'BME280 temperature: {sensors.get_bme280_data(1, 0x76)[KEY_TEMP]}')
+        print(f'BME280 humidity: {sensors.get_bme280_data(1, 0x76)[KEY_HUMIDITY]}')
+        print(f'BME280 pressure: {sensors.get_bme280_data(1, 0x76)[KEY_PRESSURE]}')
 
         time.sleep(10)
 
