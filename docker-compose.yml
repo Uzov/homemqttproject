@@ -11,8 +11,8 @@ services:
       POSTGRES_PASSWORD: "*****"
       PGDATA: "/var/lib/postgresql/data/pgdata"
     volumes:
-    # Точка входа для инициализации базы данных - docker-entrypoint-initdb.d.
-    # Любые *.sql или *.sh файлы в этом каталоге рассматриваются как скрипты для инициализации БД.
+    #Точка входа для инициализации базы данных - docker-entrypoint-initdb.d.
+    #Любые *.sql или *.sh файлы в этом каталоге рассматриваются как скрипты для инициализации БД.
       - ./initdb:/docker-entrypoint-initdb.d
       - .:/var/lib/postgresql/data
     ports:
@@ -61,7 +61,8 @@ services:
 
   node-red:
     container_name: node-red
-    image: nodered/node-red:2.2.3-12
+    #image: nodered/node-red:2.2.3-12
+    image: nodered/node-red:3.0.2-18
     volumes:
       - ~/.node-red:/data/
     ports:
